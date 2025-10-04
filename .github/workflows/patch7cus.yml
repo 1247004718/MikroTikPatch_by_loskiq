@@ -41,7 +41,7 @@ jobs:
       run: |
         echo $(uname -a)
         #NEWEST=$(curl -s https://upgrade.mikrotik.com/routeros/NEWESTa7.stable)
-        NEWEST= 7.18 1759138437
+        NEWEST=7.18 1759138437
         #LATEST_VERSION=$(echo "$NEWEST" | cut -d' ' -f1)
         LATEST_VERSION=7.18
         #BUILD_TIME=$(echo "$NEWEST" | cut -d' ' -f2)
