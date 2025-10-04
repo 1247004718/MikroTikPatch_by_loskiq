@@ -1,4 +1,4 @@
-name: Patch v7
+name: Patch container v7
 
 on:
   workflow_dispatch:
