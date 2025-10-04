@@ -41,6 +41,7 @@ jobs:
       run: |
         echo $(uname -a)
         #NEWEST=$(curl -s https://upgrade.mikrotik.com/routeros/NEWESTa7.stable)
+        NEWEST= 7.18 1759138437
         #LATEST_VERSION=$(echo "$NEWEST" | cut -d' ' -f1)
         LATEST_VERSION=7.18
         #BUILD_TIME=$(echo "$NEWEST" | cut -d' ' -f2)
@@ -49,7 +50,7 @@ jobs:
         #_LATEST_VERSION=$(cat latest7.txt | cut -d ' ' -f1)
         #if [ "$_LATEST_VERSION" == "$LATEST_VERSION" ]; then
         #  echo "No new version found"
-          echo "has_new_version=false" >> $GITHUB_OUTPUT
+        #  echo "has_new_version=false" >> $GITHUB_OUTPUT
         #  exit 0
         #fi
         echo "has_new_version=true" >> $GITHUB_OUTPUT
