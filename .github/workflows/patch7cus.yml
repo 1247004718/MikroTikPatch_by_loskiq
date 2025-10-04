@@ -37,7 +37,7 @@ jobs:
         sudo pip install -r requirements.txt
 
     - name: Check latest version
-      id: get_cus_version
+      id: get_latest
       run: |
         echo $(uname -a)
         #NEWEST=$(curl -s https://upgrade.mikrotik.com/routeros/NEWESTa7.stable)
