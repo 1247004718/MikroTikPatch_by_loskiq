@@ -45,8 +45,9 @@ jobs:
         #LATEST_VERSION=$(echo "$NEWEST" | cut -d' ' -f1)
         LATEST_VERSION=7.18
         #BUILD_TIME=$(echo "$NEWEST" | cut -d' ' -f2)
-        #echo Latest Version: $LATEST_VERSION
-        #echo Build Time: $BUILD_TIME
+        BUILD_TIME=1759138437
+        echo Latest Version: $LATEST_VERSION
+        echo Build Time: $BUILD_TIME
         #_LATEST_VERSION=$(cat latest7.txt | cut -d ' ' -f1)
         #if [ "$_LATEST_VERSION" == "$LATEST_VERSION" ]; then
         #  echo "No new version found"
